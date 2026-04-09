@@ -3,20 +3,23 @@
 ## Prerequisites
 
 ### Linux (apt)
+
 ```bash
 sudo apt install ripgrep fzf fd-find pipx
 pipx install cmakelint
 ```
 
 ### macOS (brew)
+
 ```bash
 brew install ripgrep fzf fd pipx
 pipx install cmakelint
 ```
 
 ### Windows (choco)
+
 ```powershell
-choco install ripgrep fzf fd python
+choco install ripgrep fzf fd python tree-sitter
 pip install pipx
 pipx install cmakelint
 ```
