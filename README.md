@@ -31,10 +31,10 @@ winget install --id=BrechtSanders.WinLibs.POSIX.UCRT -e
 
 ```bash
 # Linux / macOS
-git clone <repo-url> ~/.config/nvim
+git clone https://github.com/seongcheoljeon/LazyVimSettings.git ~/.config/nvim
 
 # Windows (PowerShell)
-git clone <repo-url> $env:LOCALAPPDATA\nvim
+git clone https://github.com/seongcheoljeon/LazyVimSettings.git $env:LOCALAPPDATA\nvim
 ```
 
 Neovim 실행 후 `:Lazy sync` 하면 플러그인 자동 설치.
