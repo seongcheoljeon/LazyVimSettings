@@ -22,6 +22,9 @@ pipx install cmakelint
 choco install ripgrep fzf fd python tree-sitter
 pip install pipx
 pipx install cmakelint
+
+# MinGW-w64 배포판 설치
+winget install --id=BrechtSanders.WinLibs.POSIX.UCRT -e
 ```
 
 ## Install
